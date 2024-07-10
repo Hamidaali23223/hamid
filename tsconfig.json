@@ -21,6 +21,17 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/map.tsx",
+    "components/useScrollCarousel.js",
+    "components/slider.tsx",
+    "components/Imgslider.js",
+    "app/(user_pages)/addProperty/page.tsx",
+    "components/imageUpload.js"
+  ],
   "exclude": ["node_modules"]
 }

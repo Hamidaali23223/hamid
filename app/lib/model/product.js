@@ -1,0 +1,30 @@
+import mongoose from "mongoose";
+const productModel = new mongoose.Schema({
+  PropertyType: String,
+  PropertyTypetype: String,
+  City: String,
+  SelectPurpose: String,
+  Location: String,
+  Town: String,
+  Street: String,
+  bed: Number,
+  bath: Number,
+  Price: String,
+  AreaSize: String,
+  MonthlyRent: String,
+  Installmentavailable: String,
+  Addadditionalfeatures: String,
+  Marla: String,
+  pkr: String,
+  pkr1: String,
+  Title: String,
+  Discription: String,
+  Email: String,
+  PhoneNumber1: Number,
+  PhoneNumber2: Number,
+  WhatsappNumber: Number,
+  files: String,
+  files1: String,
+});
+export const addproperty =
+  mongoose.models.addpropertys || mongoose.model("addpropertys", productModel);
